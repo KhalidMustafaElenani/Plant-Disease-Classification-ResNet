@@ -42,7 +42,7 @@ This project aims to classify plant diseases using images with a deep learning m
 - **Split**: 80% training, 20% validation.
 - **Dataset Link**: [Kaggle - Plant Disease](https://www.kaggle.com/datasets/emmarex/plantdisease/data) 
 <p align="center">
-  <img src="Number_of_Diseases_and_Plants.png" alt="Number_of_Diseases_and_Plants" width="300"/>
+  <img src="Number_of_Diseases_and_Plants.png" alt="Number_of_Diseases_and_Plants" width="900"/>
 </p>
 
 ## Setup and Installation
@@ -93,7 +93,7 @@ def plot_train_val_distribution(train_dir, val_dir, num_classes):
 plot_train_val_distribution(train_dir, valid_dir, num_classes=15)
 ```
 <p align="center">
-  <img src="Train_Validate_Distribution.png" alt="Train_Validate_Distribution" width="300"/>
+  <img src="Train_Validate_Distribution.png" alt="Train_Validate_Distribution" width="800"/>
 </p>
 
 ### Data Augmentation
@@ -118,7 +118,7 @@ def augment_all_images(input_dir, output_dir, transform):
 augment_all_images(train_dir, augmented_train_dir, train_transforms)
 ```
 <p align="center">
-  <img src="Sample_batch.png" alt="Sample_batch" width="300"/>
+  <img src="Sample_batch.png" alt="Sample_batch" width="900"/>
 </p>
 
 ## Model Architecture
@@ -143,7 +143,7 @@ class SimpleResidualBlock(nn.Module):
         return self.relu2(out) + x
 ```
 <p align="center">
-  <img src="Model.png" alt="Model" width="300"/>
+  <img src="Model.png" alt="Model" width="500"/>
 </p>
 
 ### Accuracy Calculation
@@ -173,7 +173,7 @@ model = YourModel()
 train_model(model, train_dl, valid_dl, num_epochs=25, lr=0.001)
 ```
 <p align="center">
-  <img src="Model_Training.png" alt="Model_Training" width="300"/>
+  <img src="Model_Training.png" alt="Model_Training" width="700"/>
 </p>
 
 ## Results
@@ -197,7 +197,7 @@ def plot_results(results):
 plot_results(training_results)
 ```
 <p align="center">
-  <img src="Accuracy_vs._Epochs.png" alt="Accuracy_vs._Epochs" width="300"/>
+  <img src="Accuracy_vs._Epochs.png" alt="Accuracy_vs._Epochs" width="500"/>
 </p>
 
 ## Contributing
