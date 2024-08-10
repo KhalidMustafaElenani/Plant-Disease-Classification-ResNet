@@ -2,6 +2,7 @@
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning%20-%20brown?style=plastic)
 ![Image_Classification](https://img.shields.io/badge/Image%20Classification%20-%20brown?style=plastic)
 ![License](https://img.shields.io/badge/license%20-%20Apache%20-%20darkred?style=plastic)
+![ResNet-9](https://img.shields.io/badge/ResNet-9-%20teal?style=plastic)
 ![Torchvision](https://img.shields.io/badge/Torchvision-0.15.2.0.1-%20teal?style=plastic)
 ![Numpy](https://img.shields.io/badge/Numpy-1.24.4-%20teal?style=plastic)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0.3-%20teal?style=plastic)
